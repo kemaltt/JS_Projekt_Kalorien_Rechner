@@ -14,7 +14,7 @@ const output_gesamt_kJ = document.getElementById('output_gesamt_kJ')
 const calculate = () => {
 
     if (size.value == '' || alter.value == '' || weight.value == '') {
-        alert('Geben Sie eine Körpergröße,Alter oder Gewicht')
+        alert('Geben Sie eine Körpergröße,Alter oder ein Gewicht ein!')
     } else {
         let grundUmsatz, grundUmsatzkj, gesamtUmsatz, gesamtUmsatzkj;
         if (female.checked) {
