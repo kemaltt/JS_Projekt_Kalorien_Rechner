@@ -1,0 +1,46 @@
+section {
+    background-color: #ADC4DD;
+    margin: 15vh 35%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 1vh 0 5px 0;
+}
+
+form input[type="number"] {
+    width: 200px;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    margin: 1vh 0;
+    background-color: #906021;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td {
+    width: 150px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #2A75A9;
+    color: #fff;
+}
