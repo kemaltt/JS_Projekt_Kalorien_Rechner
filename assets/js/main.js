@@ -18,11 +18,11 @@ const calculate = () => {
     } else {
         grundUmsatz = 664.7 + (13.7 * weight.value) + (5 * size.value) - (6.8 * alter.value);
     }
-    output_grund_kcal.innerHTML = grundUmsatz.toFixed();
+    output_grund_kcal.innerHTML = (grundUmsatz / 1000).toFixed(3);
     gesamtUmsatz = grundUmsatz * Number(palFaktor.value);
-    output_gesamt_kcal.innerHTML = gesamtUmsatz.toFixed();
+    output_gesamt_kcal.innerHTML = (gesamtUmsatz / 1000).toFixed(3);
     grundUmsatzkj = grundUmsatz * 4.1868;
-    output_grund_kJ.innerHTML = grundUmsatzkj.toFixed();
+    output_grund_kJ.innerHTML = (grundUmsatzkj / 1000).toFixed(3);
     gesamtUmsatzkj = gesamtUmsatz * 4.1868;
-    output_gesamt_kJ.innerHTML = gesamtUmsatzkj.toFixed()
+    output_gesamt_kJ.innerHTML = (gesamtUmsatzkj / 1000).toFixed(3)
 }
