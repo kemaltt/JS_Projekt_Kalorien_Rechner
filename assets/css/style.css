@@ -5,6 +5,10 @@ section {
     padding: 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
 section form {
     display: flex;
     flex-direction: column;
